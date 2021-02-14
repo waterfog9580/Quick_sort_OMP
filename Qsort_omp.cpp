@@ -78,24 +78,24 @@ void quickSort_parallel_internal(int left, int right, int cutoff)
 }
 
 int main(){
-    float sum = 0;
+    	float sum = 0;
 	for (int i = 0; i < 10000; i++)
 	{
 		struct timeval stime,etime,gap;
 		get_randArr();
 		
 		gettimeofday(&stime,NULL);
-    	quickSort_parallel(MAX_COUNT,1024);
-       	gettimeofday(&etime,NULL);
+    		quickSort_parallel(MAX_COUNT,1024);
+       		gettimeofday(&etime,NULL);
 
-       	gap.tv_sec = etime.tv_sec - stime.tv_sec;
+       		gap.tv_sec = etime.tv_sec - stime.tv_sec;
 	   	gap.tv_usec = etime.tv_usec - stime.tv_usec;
 
-       	if(gap.tv_usec < 0){
-           	gap.tv_sec = gap.tv_sec-1; 
-           	gap.tv_usec = gap.tv_usec + 1000000;
-       	}
-       	sum += gap.tv_usec;
-    }
-    cout << sum/10000 << endl;
+       		if(gap.tv_usec < 0){
+           		gap.tv_sec = gap.tv_sec-1; 
+           		gap.tv_usec = gap.tv_usec + 1000000;
+       		}
+       		sum += gap.tv_usec;
+    	}
+    	cout << sum/10000 << endl;
 }
