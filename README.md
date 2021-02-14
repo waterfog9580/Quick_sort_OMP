@@ -1,6 +1,8 @@
 # Quick_sort_OMP
 
 ## gen_paren_openMP.cpp
+ (Threads:Seconds)
+ 
  32:	   194791  
  16:  	 135976  
  8 :   	101021  
