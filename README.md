@@ -10,6 +10,7 @@
 
 ## Qsort_omp(Sample num : 10,000, Loop : 10,000)
  (Threads:Seconds)
+ 
  1024:	6359.82  
  512:	3116.19   
  256:	1316.14  
