@@ -1,6 +1,6 @@
 # Quick_sort_OMP
 
-## Gnerate parentheses Alogorithm with openMP.cpp
+## Gnerate parentheses Algorithm with openMP.cpp
  Threads|Seconds|
  -------|-------|
  32|	   194791  
