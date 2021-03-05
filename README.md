@@ -1,5 +1,7 @@
 # Quick_sort_OMP
 
+Performance Comparison by Thread Count
+
 ## Quick Sort Algorithm with openMP(Sample num : 10,000, Loop : 10,000)
  Threads|Seconds|
  -------|-------|
