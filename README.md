@@ -2,7 +2,7 @@
 
 Performance Comparison by Thread Count
 
-## Quick Sort Algorithm with openMP(Sample num : 10,000, Loop : 10,000)
+## Quick Sort Algorithm with openMP(Number of Samples : 10,000, Loop : 10,000)
  Threads|Seconds|
  -------|-------|
  1024|	6359.82|
