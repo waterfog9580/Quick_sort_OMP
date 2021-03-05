@@ -1,15 +1,5 @@
 # Quick_sort_OMP
 
-## Gnerate parentheses Algorithm with openMP.cpp
- Threads|Seconds|
- -------|-------|
- 32|	   194791  
- 16|  	 135976  
- 8|   	 101021  
- 4|    	52671.2  
- 2|    	48149  
- 1|    	32590.2  
-
 ## Quick Sort Algorithm with openMP(Sample num : 10,000, Loop : 10,000)
  Threads|Seconds|
  -------|-------|
@@ -28,3 +18,13 @@
  3|	500.957  
  2|	620.684  
  1|	1066.18  
+
+## Gnerate parentheses Algorithm with openMP
+ Threads|Seconds|
+ -------|-------|
+ 32|	   194791  
+ 16|  	 135976  
+ 8|   	 101021  
+ 4|    	52671.2  
+ 2|    	48149  
+ 1|    	32590.2  
